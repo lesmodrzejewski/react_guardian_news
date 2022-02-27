@@ -1,3 +1,5 @@
+import "./NewsItem.css"
+
 const NewsItem = ({song}) => {
     return ( 
         <>

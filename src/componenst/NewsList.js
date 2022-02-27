@@ -1,4 +1,6 @@
 import NewsItem from "./NewsItem";
+import "./NewsList.css"
+
 
 const NewsList = ({listOfNews}) => {
 

@@ -1,4 +1,5 @@
 import { useState } from "react"
+import "./NewsInput.css"
 
 const NewsInput = ({topic, changeTopic}) => {
 
@@ -16,10 +17,10 @@ const NewsInput = ({topic, changeTopic}) => {
 
     return ( 
         <>
-            <form onSubmit={handleNewTopicSubmit}>
-                <label htmlFor="topic">Topic</label>
-                <input type="text" name="topic" id="topic" onChange={handleTopicChange} value={newTopic}/>
-                <input type="submit" value="submit topic" />
+            <form id="topic-form" onSubmit={handleNewTopicSubmit}>
+                <label htmlFor="topic">Change Field </label>
+                <input type="text" name="topic" id="topic" onChange={handleTopicChange} value={newTopic} placeholder="what field are you interested in?"/>
+                <input type="submit" value="change topic" />
             </form>
         </>
     );
