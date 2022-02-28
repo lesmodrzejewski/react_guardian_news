@@ -20,7 +20,7 @@ const NewsInput = ({topic, changeTopic}) => {
             <form id="topic-form" onSubmit={handleNewTopicSubmit}>
                 <label htmlFor="topic">Change Field </label>
                 <input type="text" name="topic" id="topic" onChange={handleTopicChange} value={newTopic} placeholder="what field are you interested in?"/>
-                <input type="submit" value="change topic" />
+                <input type="submit" value="change field" />
             </form>
         </>
     );

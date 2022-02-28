@@ -24,7 +24,7 @@ const NewsContainer = () => {
 
     useEffect(() => {
         getNewsList()
-    },[])
+    },[topic])
 
     return ( 
         <>
